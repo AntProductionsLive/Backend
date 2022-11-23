@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "contacts",
+  "info": {
+    "name": "Contact",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Email": {
+      "type": "string"
+    },
+    "Adress": {
+      "type": "text"
+    },
+    "PhoneNumber1": {
+      "type": "string"
+    },
+    "PhoneNumber2": {
+      "type": "string"
+    },
+    "GoogleMapsLink": {
+      "type": "string"
+    }
+  }
+}

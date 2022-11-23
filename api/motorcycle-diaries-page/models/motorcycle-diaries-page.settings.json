@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "motorcycle_diaries_pages",
+  "info": {
+    "name": "MotorcycleDiariesPage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Description": {
+      "type": "text"
+    },
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "websiteLink": {
+      "type": "string"
+    }
+  }
+}
